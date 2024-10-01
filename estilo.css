@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border: 15px inset lightblue ;
+    font-weight: bold;
+    text-align: center;
+    /* foint-weight : normal o bold*/
+}
+
+
+h2{
+    background-color: rgba(240, 139, 139, 0.979);
+    color: white;
+    
+  
+}
+
+h3{
+    background-color: rgba(136, 193, 247, 0.979);
+    color: rgb(255, 255, 255);
+
+    
+}
+
+p{
+    text-align: justify;
+}
+
+#Deportes{
+    background-color: cornflowerblue;
+}
+
+body{
+    width: 60%;
+    margin: auto;
+}
+
+#Elmuseodelprado{ 
+    background-color: rgba(253, 172, 172, 0.979);
+}
+
+p.volver{
+    color: blue ;
+    text-align: right;
+}
+
+p.volver2{
+    color: rgb(131, 150, 255);
+    text-align: center;
+}
+
+li{
+    font-weight: bold;
+}
