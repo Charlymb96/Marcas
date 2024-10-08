@@ -1,0 +1,94 @@
+table{
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+    font-size: 450%;
+    border: 0px;
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+body{
+    margin: 0px;
+}
+
+#td1{
+background-color: red;
+}
+
+#td1:hover{
+    background-color: black;
+    color: red;
+    }
+
+#td10{
+    background-color: rgb(255, 128, 238);
+}
+
+#td10:hover{
+    background-color: black;
+    color: pink;
+    }
+
+#td15{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#td15:hover{
+    background-color: white;
+    color: black;
+    }
+
+#td2{
+    background-color: rgb(0, 4, 255);
+}
+
+#td2:hover{
+    background-color: black;
+    color: blue;
+    }
+
+#td5{
+    background-color: rgb(238, 255, 0);
+
+}
+
+#td5:hover{
+    background-color: black;
+    color: yellow;
+    }
+
+#td11{
+    background-color: rgb(43, 255, 0);
+
+}
+
+#td11:hover{
+    background-color: black;
+    color: rgb(43, 255, 0);
+    }
+
+#td6{
+    background-color: rgb(129, 66, 7);
+
+}
+
+#td6:hover{
+    background-color: black;
+    color: brown;
+    }
+
+#td35{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#td35:hover{
+    background-color: white;
+    color: black;
+    }
+
+
+
