@@ -1,0 +1,92 @@
+table{
+    border: 2px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    
+    
+    }
+
+    /*width: 70%;
+    height: 100vh;
+    text-align: center;
+    font-size: 450%;
+    border: 0px;
+    border-collapse: collapse;
+    margin: auto;
+    */
+    
+
+    td,th{
+        border: 2px solid black;
+        
+    }
+    
+    th{
+        color: black;
+    }
+    
+    h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    }
+       
+    
+    caption{
+        text-align: left;
+    }
+
+    #fin{
+        text-align: right;
+        background-color: rgb(252, 192, 182);
+    }
+
+    ul{
+        
+        padding: 0;
+    }
+
+    #ite{
+        background-color: blue;
+    }
+
+    #programacion{
+        background-color: rgb(94, 255, 0);
+    }
+
+    #basededatos{
+        background-color: rgb(79, 140, 255);
+    }
+
+    #ldmarcas{
+        background-color: rgb(50, 150, 100);
+    }
+
+    #pyom{
+        background-color: yellow;
+    }
+
+    #Entornos{
+        background-color: rgb(204, 97, 195);
+    }
+
+    #Sistemasinf{
+        background-color: rgb(141, 199, 117);
+    }
+
+    #hora{
+        background-color: rgb(255, 145, 0);
+        color: white;
+    }
+
+    #recreo{
+        background-color: rgb(245, 201, 151);
+    }
+
+    #clases{
+        background-color: black;
+        color: white;
+    }
