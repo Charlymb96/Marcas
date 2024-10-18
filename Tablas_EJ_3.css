@@ -1,0 +1,165 @@
+table{
+    border: 3px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    /*width: 70%;
+    height: 100vh;
+    text-align: center;
+    font-size: 450%;
+    border: 0px;
+    border-collapse: collapse;
+    margin: auto;
+    */
+    
+
+    td{
+        padding: 11px;
+        
+    }
+
+
+    td,th{
+        border: 2px solid black;
+    
+	    
+        
+    }
+    
+    th{
+        color: black;
+    }
+    
+    h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+    }
+       
+    
+    caption{
+        text-align: left;
+        color: blue;
+    }
+
+    #fin{
+        text-align: right;
+        background-color: rgb(252, 192, 182);
+        padding: 10px;
+    }
+
+    ul{
+        padding: 0;
+        list-style: none;
+
+    }
+
+    .ite{
+        background-color: blue;
+    }
+
+    .programacion{
+        background-color: rgb(94, 255, 0);
+    }
+
+    .basededatos{
+        background-color: rgb(79, 140, 255);
+    }
+
+    .ldmarcas{
+        background-color: rgb(50, 150, 100);
+    }
+
+    .pyom{
+        background-color: yellow;
+    }
+
+    .Entornos{
+        background-color: rgb(204, 97, 195);
+    }
+
+    .Sistemasinf{
+        background-color: rgb(141, 199, 117);
+    }
+
+    .hora{
+        background-color: rgb(255, 145, 0);
+        color: white;
+        
+    }
+
+    .recreo{
+        background-color: rgb(245, 201, 151);
+        color: purple;
+    }
+
+    .clases{
+        background-color: black;
+        color: white;
+        border-left: white dotted;
+        padding: 10px;
+    }
+
+    .clasesuno{
+        background-color: black;
+        color: white;
+        border-right:dotted;
+        padding: 10px;
+    }
+
+    :target{
+        text-decoration: underline wavy red;
+        color: red;
+    }
+
+    a{
+        color: inherit;
+        text-decoration: none;
+        
+    }
+
+    .ite:hover{
+        background-color: white;
+        color: blue; 
+    }
+
+    .programacion:hover{
+        background-color: white;
+        color: rgb(94, 255, 0); 
+    }
+
+    .basededatos:hover{
+        background-color: white;
+        color: rgb(79, 140, 255); 
+    }
+
+    .ldmarcas:hover{
+        background-color: white;
+        color: rgb(50, 150, 100); 
+    }
+
+    .pyom:hover{
+        background-color: white;
+        color: yellow; 
+    }
+
+    .Entornos:hover{
+        background-color: white;
+        color: rgb(204, 97, 195); 
+    }
+
+    .Sistemasinf:hover{
+        background-color: white;
+        color: rgb(141, 199, 117); 
+    }
+    
