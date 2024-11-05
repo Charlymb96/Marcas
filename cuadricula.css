@@ -1,0 +1,143 @@
+body{
+    width: 800px;
+    border: 1px solid black;
+    margin: 30px auto;
+}
+
+p{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+span{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    background-color: blue;
+}
+
+span+span{
+    background-color: green;
+}
+
+span+span+span{
+    background-color: yellow;
+}
+
+p+p>span{
+    background-color: red;
+}
+
+p+p>span+span{
+    background-color: orange;
+}
+
+p+p>span+span+span{
+    background-color: brown;
+}
+
+p+p+p>span{
+    background-color: purple;
+}
+
+p+p+p>span+span{
+    background-color: pink;
+}
+
+p+p+p>span+span+span{
+    background-color: rgb(0, 0, 121);
+    color: white;
+}
+
+span:hover{
+    
+    color: white;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    width: 10%;
+    text-decoration: none;
+    background-color: red;
+    margin: 5px;
+    color: white;
+    width: 90px;
+    height: 30px;
+    padding-top: 15px ;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+li+li{
+    background-color: blue;
+    color: white;
+}
+
+li+li+li{
+    background-color: green;
+    color: white;
+}
+
+li+li+li+li{
+    background-color: yellow;
+    color: black;
+}
+
+li+li+li+li+li{
+    background-color: orangered;
+    color: white;
+}
+
+li+li+li+li+li+li{
+    background-color: brown;
+    color: white;
+}
+
+h1{
+    text-align: right;
+    color: red;
+    padding-right: 5%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 3px;
+    margin-top: 20px;
+    color: white;
+}
+
+/*p>span:hover~span{
+    display: none;
+}
+*/
+
+/*p:hover~p{
+    display: none;
+}*/
+
+
+span:hover+span{
+    background-color: white;
+    color: white;
+    display: none;
+}
+
+span:hover+span+span{
+    background-color: white;
+    color: white;
+    display: none;
+}
