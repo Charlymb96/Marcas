@@ -1,54 +1,183 @@
-h1 {
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    border: 15px inset lightblue ;
-    font-weight: bold;
-    text-align: center;
-    /* foint-weight : normal o bold*/
+
+body{
+    width: 600px;
+    font-family:"Merriweather";
+    margin: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid brown;
+    margin-bottom: 10px;
+}
+h1{
+    font-family:"Spicy Rice";
+}
+nav{
+    font-family: "Anton";
 }
 
-
-h2{
-    background-color: rgba(240, 139, 139, 0.979);
+header nav{
+    display: inline-block;
+    width: 100%;
+}
+ol{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: brown;
+    padding: 0px;
+    margin: 0;
+    display: inline-block;
+}
+header li{
+    padding: 21px;
+    display: inline-block;
+}
+header li:hover{
+    background-color: brown;
     color: white;
-    
-  
 }
 
-h3{
-    background-color: rgba(136, 193, 247, 0.979);
-    color: rgb(255, 255, 255);
-
-    
+a{
+    color: inherit;
+    text-decoration: none;
 }
 
 p{
-    text-align: justify;
+    margin-right: 5%;
 }
 
-#Deportes{
-    background-color: cornflowerblue;
-}
-
-body{
-    width: 60%;
-    margin: auto;
-}
-
-#Elmuseodelprado{ 
-    background-color: rgba(253, 172, 172, 0.979);
-}
-
-p.volver{
-    color: blue ;
-    text-align: right;
-}
-
-p.volver2{
-    color: rgb(131, 150, 255);
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
     text-align: center;
+    margin: 20px;
+}
+tr, td{
+    border: 1px solid black;
+    padding: 6px;
+}
+th{
+    border: 1px solid white;
+    padding: 6px;
+}
+thead{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
 
-li{
-    font-weight: bold;
+tbody tr:nth-child(1), tbody tr:nth-child(3){
+    background-color:#de5714 ;
 }
+
+tbody tr:nth-child(2), tbody tr:nth-child(4){
+    background-color:#e2cd63 ;
+}
+
+tfoot{
+    background-color: #368fb3;
+}
+
+tfoot th{
+    border: 1px solid black;
+}
+
+caption{
+    color: #de5714;
+    font-size: 21px;
+}
+
+thead th:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+tr td:hover{
+    background-color:black ;
+    color: #e2cd63;
+}
+
+tfoot th:hover{
+    background-color:black ;
+    color: #e2cd63;
+}
+
+section{
+    border-top: 8px solid brown;
+}
+
+h2{
+    font-family:"Anton";
+    font-size: 1.2em;
+    color: brown;
+}
+
+div{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+div:nth-child(1){
+    width: 28%;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+div:nth-child(1) p{
+    color: brown;
+}
+
+div:nth-child(2){
+    width: 68.5%;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div:nth-child(2) p{
+    background-color:#3a2449 ;
+    padding: 30px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#textdiploma{
+    width: 65%;
+    background-color:#786983 ;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+#diplomaybirrete{
+    width: 35%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+span{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+
