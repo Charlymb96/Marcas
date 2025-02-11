@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        table{
+            width: 80%;
+            margin: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid black;
+        }
+
+        th{
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:nth-child(odd){
+            background-color: gray;
+        }
+
+        tr:nth-child(even){
+            background-color: rgb(114,184,114);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- table>caption{Titulo de la tabla}+(thead>tr>th*12)+(tfoot>tr>td*12)+tbody>tr*60>td*12{celda $}!-->
+
+    <table>
+        <caption>Titulo de la tabla</caption>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+                <th>Encabezado 4</th>
+                <th>Encabezado 5</th>
+                <th>Encabezado 6</th>
+                <th>Encabezado 7</th>
+                <th>Encabezado 8</th>
+                <th>Encabezado 9</th>
+                <th>Encabezado 10</th>
+                <th>Encabezado 11</th>
+                <th>Encabezado 12</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+            <tr>
+                <td>celda 1</td>
+                <td>celda 2</td>
+                <td>celda 3</td>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td>celda 9</td>
+                <td>celda 10</td>
+                <td>celda 11</td>
+                <td>celda 12</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

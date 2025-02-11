@@ -1,0 +1,14 @@
+div{
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 150px;
+    left: 500px;
+    top: 200px;
+}
+
+span{
+    position: fixed;
+    background-color: red;
+}
