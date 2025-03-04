@@ -1,0 +1,29 @@
+img{
+    -webkit-box-reflect: below 0px;
+}
+
+main{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    /*-webkit-box-reflect: below 10px;*/
+    -webkit-box-reflect: right 0px;
+}
+
+div{
+    -webkit-box-reflect: left 0px;
+}
+
+section{
+    -webkit-box-reflect: above 0px;
+}
+
+
+
+
+
+    
+
+
+/* Para usar box-reflect hace falta usar un prefijo de navegador*/
+
