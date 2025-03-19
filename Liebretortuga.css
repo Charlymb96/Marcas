@@ -1,0 +1,51 @@
+@keyframes animacion{
+    from{
+        left: 0;
+    }
+    
+
+    to{
+        
+        left: 1100px;
+    }
+
+}
+
+/*img:nth-of-type(1){
+    display: block;
+    position: relative;
+    width: 100%;
+}*/
+
+img:nth-of-type(1),img:nth-of-type(2){
+    position: absolute;
+    top: 0;
+}
+
+img:nth-of-type(1){
+    animation: animacion 5s;
+    animation-fill-mode: forwards;
+}
+
+img:nth-of-type(2){
+    position:absolute;
+    bottom: 60px;
+    top: initial;
+    animation: animacion 3s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+body{
+    background-image: url("fondo_bosque.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img:nth-of-type(2):hover{
+    animation-play-state: running;
+}
+
+
+
+
