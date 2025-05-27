@@ -1,0 +1,276 @@
+/*CUADRADOS GIRATORIOS Y LETRAS*/
+
+.rotacion {
+ position: absolute;
+ width: 160px;
+ height: 160px;  
+ justify-content: center;
+ opacity: 0.7;
+ border-radius: 10% 5% 10% 5%;
+ display: flex;
+ left: 150px;
+ top: 100px;
+ align-items: center;
+ 
+}
+
+.rotacion:nth-child(1) {
+ background-color: red;
+ animation: al-reves 4s infinite ease-in-out alternate;
+ 
+}
+
+.rotacion:nth-child(2) {
+ background-color: rgb(0, 255, 34);
+ animation: al-reves 6s infinite ease-in-out alternate;
+
+}
+
+.rotacion:nth-child(3) {
+ background-color: blue;
+ animation: girar 3s infinite ease-in-out alternate;
+ 
+}
+
+.rotacion:nth-child(3) .rotacion-no {
+ color: white;
+ font-weight: bold;
+ font-size: 21px;
+ animation: letras 3s infinite ease-in-out alternate;
+}
+
+@keyframes letras{
+  0% { transform: rotate(0deg); 
+ }
+  100% { transform: rotate(-720deg); 
+ }
+}
+
+@keyframes girar {
+  0% { transform: rotate(0deg); 
+ }
+  100% { transform: rotate(720deg);
+ }
+}
+
+@keyframes al-reves {
+  0% { transform: rotate(0deg); 
+ }
+  100% { transform: rotate(-360deg); 
+ }
+}
+
+
+/*RECUADRO ROSA*/
+
+.recuadro {
+ margin-top: 150px;
+ margin-left: 450px;
+ width: 50%;
+ padding: 20px;
+ margin-right: auto;
+ border-radius: 20% 5% 20% 5%;
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(228, 154, 179);
+ animation: cuadrorosa 3s linear ;
+}
+
+
+/*LIBRO*/
+
+.recuadro>div:nth-of-type(1) img{
+ margin-top: 15px;
+ margin-bottom: 30px;
+ width: 80%;
+ position: relative;
+ margin-left: 50px;
+ z-index: 10;
+ animation: aparecer 3s linear;
+}
+
+@keyframes aparecer{
+    0%{
+        left: -500%;
+    }
+    
+    25%{ 
+        left: 60%;
+    }
+    
+    50%{
+        left: 0%;
+    }
+    
+    75%{
+        left: 60%;
+
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+
+/*TEXTO LOREM*/
+
+
+p{
+ margin: 0;
+ flex-basis: 60%;
+ padding-left: 35px;
+ font-size: 1.2em;
+ 
+}
+
+
+
+/*RECUADROS EXTRA*/
+
+.recuadro>div:nth-child(1) div{
+  width: 122px;
+  height: 50px;
+  position: absolute;
+  border-radius: 30%;
+  justify-content: center;
+  color: white;
+  padding: 5px;
+  transition:  2s ease; 
+  display: flex;
+  
+}
+
+/*AVENTURA RECUADRO*/
+
+.recuadro>div:nth-child(1) div:nth-child(1) {
+  top:-15px;
+  left: 70px;
+  background-color: rgb(255, 0, 0);
+  animation: primercuadrado 7s forwards alternate;
+  z-index: -1;
+}
+
+@keyframes primercuadrado{
+    0%{
+        left: 25%;
+        z-index: -1;
+    }
+    
+    20%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    40%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    60%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    80%{
+        left: 25%;
+        top: 20%;
+    }
+
+    100% {
+        left: 25%;
+        z-index: 0;
+    }
+}
+
+/*PASION RECUADRO*/
+
+.recuadro div:nth-child(2) {
+  top: 80px;
+  left: 210px;
+  background-color: rgb(255, 0, 0);
+  animation: segundocuadrado 5s forwards alternate;
+  z-index: -1;
+}
+
+@keyframes segundocuadrado{
+    0%{
+        left: 25%;
+        z-index: -1;
+    }
+    
+    20%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    40%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    60%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    80%{
+        left: 25%;
+        top: 20%;
+    }
+
+    100% {
+        left: 85%;
+        z-index: 1;
+    }
+}
+
+/*EMOCION RECUADRO*/
+
+.recuadro div:nth-child(3) {
+  top: 305px;
+  left: 70px;
+  background-color: rgb(255, 0, 0);
+  animation: tercercuadrado 9s forwards alternate;
+  z-index: -1;
+}
+
+@keyframes tercercuadrado{
+    0%{
+        left: 25%;
+        z-index: -1;
+    }
+    
+    20%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    40%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    60%{
+        left: 25%;
+        z-index: -1;
+        
+    }
+    80%{
+        left: 25%;
+        top: 20%;
+    }
+
+    100% {
+        top: 340px;
+        z-index: 1;
+    }
+}
+
+
+/*ANIMACION RECUADROS EXTRA*/
+
+.recuadro>div:nth-of-type(1){
+ flex-basis: 45%;
+ position: relative;
+}
+
